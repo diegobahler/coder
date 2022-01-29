@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<!-- DOCUMENTO BORRADOR PARA PROBAR CAMBIOS Y OBJETOS --> 
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../recursos/img/favicon.gif">
+    <link rel="stylesheet" href="../style.css" />
+	<title>Sobre mí</title>
+</head>
+<body>
+	<!-- avatar + menú + boton para version oscura - faltan los iconos --> 
+	<header>
+		<h1>AVATAR PERFIL</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Sobre mí</a></li>
+				<li><a href="secciones/formacion.html">Formacion y carrera laboral</a></li>
+				<li><a href="secciones/enlaces.html">Mis enlaces y redes</a></li>
+				<li><a href="secciones/multimedia.html">Multimedia y proyectos</a></li>
+				<li><a href="secciones/contacto.html">Contacto</a></li>
+        <li><button type="button" class="btn btn-dark" onclick="cambiarModo()">Oscuro / Claro</button></li>				
+			</ul>
+			</ul>
+		</nav>
+	</header>
+	<!-- cierre de fila logo + nav -->
+	<!-- fila de información de mi sitio -->
+	<!-- comienzo footer - falta asignar iconos en lugar de texto --> 
+    <footer class="footer">
+        <p>Mis redes sociales segun utilizacion periodica, sino simplemente contactame por <a href="mailto:cualkiera@gmail.com">mail</a> </p>
+        <a href="https://web.telegram.org">telegram</a>
+        <a href="https://www.instagram.com">instagram</a>
+        <a href="https://www.facebook.com">facebook</a>
+        <a href="https://www.linkedin.com">linkedin</a>    
+        <a href="https://www.github.com">github</a>
+        <a href="https://www.soundcloud.com">soundcloud</a>
+        <a href="https://www.twitch.com">twitch</a>
+    </footer>
+    <!-- finalizo footer --> 
+    <!-- comienzo script boton para version oscura --> 
+    <script type="text/javascript"> 
+        function cambiarModo() { 
+        var cuerpoweb = document.body; 
+        cuerpoweb.classList.toggle("oscuro"); 
+        } 
+    </script>
+    <!-- finalizo script boton para version oscura --> 
+    </body>
+    </html>

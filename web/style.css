@@ -1,0 +1,69 @@
+/* Caracteristicas principales de la web por importancia */
+/* BODY */
+body {
+    margin: auto;
+    background-color: teal;
+    max-width: 90%;
+}
+/* HEADER */
+header {
+    font-family: "Audiowide", sans-serif;
+    background-color: cadetblue;
+    background-image: url("https://mlzsmzfeleix.i.optimole.com/EL7c_sg.k03b~5e599/w:auto/h:auto/q:75/https://rdlcom.com/wp-content/uploads/airband_header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 20px;
+    padding-inline: 15px;
+}
+h3 {
+    padding-inline: 15px;
+    font-family: "Audiowide", sans-serif;
+}
+.nav {
+    margin: 15px;
+}
+/* Seccion principales y manejo de articulos */
+p {
+    text-align: left;
+    padding-inline: 30px;
+}
+section {
+    margin: auto;
+    text-align: center;
+    color: rgb(2, 38, 63);
+}
+article {
+    text-align: center;
+}
+.centrado {
+    text-align: right;
+}
+/* Estilo particular a las listas de menu*/
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+li {
+    display: inline-block;
+}
+/* Color de seleccion en menu desktop (no funciona en movil) */
+li :hover {
+    background-color: yellow;
+}
+/* Formulario */
+form {
+    text-align: center;
+    display: inline-block;
+}
+/* FOOTER */
+footer {
+    background-color: cadetblue;
+    padding-bottom: 10px;
+/* Desactivo posibilidad de poner imagen de fondo para otra etapa */
+    /* background-image: url("http://cvitanic.info/wp-content/uploads/2016/05/Footer-background.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.footer {
+    text-align: center;
+}
