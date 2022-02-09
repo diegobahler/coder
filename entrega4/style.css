@@ -1,0 +1,123 @@
+/* Caracteristicas principales de la web por importancia */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* BODY */
+body {
+    margin: auto;
+    background-color: #32de84;
+    max-width: 90%;
+}
+/* BODY GRID */
+#bodyGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .headerGrid {
+    grid-area: 1 / 1 / 2 / 6;
+    }
+    .mainGrid {
+        grid-area: 2 / 1 / 5 / 6; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #3bb78f;
+        background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); 
+    }
+    .footerGrid {
+    grid-area: 5 / 1 / 6 / 6;
+    }
+/* HEADER */
+header {
+    font-family: "Audiowide", sans-serif;
+    background-image: url("https://mlzsmzfeleix.i.optimole.com/EL7c_sg.k03b~5e599/w:auto/h:auto/q:75/https://rdlcom.com/wp-content/uploads/airband_header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 2px solid #043927;
+    padding-bottom: 20px;
+    padding-inline: 15px;
+}
+.headerFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Seccion principales y manejo de articulos */
+li :visited {
+    color: #0B3866;
+    }
+li :link {
+    color: #0F4A69;
+}
+/* Color de seleccion en menu desktop (no funciona en movil) */
+li :hover {
+    background-color: #32DE84;
+}
+h2 {
+    color: #145D6D;
+    padding-inline: 15px;
+    font-family: "Audiowide", sans-serif;
+}
+.nav {
+    margin: 15px;
+    list-style-type: none;
+}
+
+p {
+    color: white;
+    text-align: left;
+    padding-inline: 30px;
+    margin: 5px;
+}
+section {
+    margin: auto;
+    text-align: center;
+}
+article {
+    text-align: center;
+}
+/* FOOTER */
+footer {
+/*    background-color: #1C8273; */
+    color: white;
+    padding-bottom: 10px;
+    border: 2px solid #043927;
+    align-content: center;
+    background-color: #3ee577;
+    background-image: linear-gradient(315deg, #3ee577 0%, #13927b 74%);
+    /*background-color: #008B8B;*/
+    /* Desactivo posibilidad de poner imagen de fondo para otra etapa */
+    /* background-image: url("http://cvitanic.info/wp-content/uploads/2016/05/Footer-background.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.footerFlex {
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    display: inline-block;
+}
+/* SMARTPHONE */
+@media (max-width: 480px){
+    body {
+        height: 100vh;
+    }
+    footer {
+        padding: 5px;
+    }
+    li :link {
+        color: #32DE84;
+    }
+
+/* DESKTOP */
+@media (min-width: 768px){
+    body {
+        height: 100vh;
+    }
+}
+
+
